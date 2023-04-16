@@ -1,0 +1,22 @@
+{
+  "name": "statpilot",
+  "version": "1.0.0",
+  "description": "Statistics and scientific computing library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "author": "Soumyadas15",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "jest": "^29.5.0",
+    "path": "^0.12.7",
+    "webpack": "^5.77.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
